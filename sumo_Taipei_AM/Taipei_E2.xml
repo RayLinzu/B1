@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-07-13 16:05:56 by Eclipse SUMO netedit Version 1.13.0
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+<!-- X1_A -->
+	<laneAreaDetector id="X1_A_0" freq="1800" file="NUL" lane="L_0901_0" pos="0" length="53"/>
+
+<!-- X1_B -->
+	<laneAreaDetector id="X1_B_0" freq="1800" file="NUL" lane="L_0201_0" pos="0" length="148"/>
+	<laneAreaDetector id="X1_B_1" freq="1800" file="NUL" lane="L_0201_1" pos="0" length="148"/>
+
+<!-- X1_C -->
+
+<!-- X1_D -->
+	<laneAreaDetector id="X1_D_0" freq="1800" file="NUL" lane="L_0801_0" pos="0" length="94"/>
+	<laneAreaDetector id="X1_D_1" freq="1800" file="NUL" lane="L_0801_1" pos="0" length="94"/>
+	
+<!-- X2_A -->
+	
+<!-- X2_B -->
+	<laneAreaDetector id="X2_B_0" freq="1800" file="NUL" lane="L_0302_0" pos="0" length="79"/>                                               
+	<laneAreaDetector id="X2_B_1" freq="1800" file="NUL" lane="L_0302_1" pos="0" length="79"/> 
+	
+<!-- X2_C -->
+	<laneAreaDetector id="X2_C_0" freq="1800" file="NUL" lane="L_0602_0" pos="0" length="162"/>
+	
+<!-- X2_D -->
+	<laneAreaDetector id="X2_D_0" freq="1800" file="NUL" lane="L_0102_0" pos="0" length="148"/>                                               
+	<laneAreaDetector id="X2_D_1" freq="1800" file="NUL" lane="L_0102_1" pos="0" length="148"/>
+	
+
+<!-- X3_A -->
+	
+<!-- X3_B -->
+	<laneAreaDetector id="X3_B_0" freq="1800" file="NUL" lane="L_0403_0" pos="0" length="139"/>                                               
+	<laneAreaDetector id="X3_B_1" freq="1800" file="NUL" lane="L_0403_1" pos="0" length="139"/> 
+	
+<!-- X3_C -->
+	
+<!-- X3_D -->
+	<laneAreaDetector id="X3_D_0" freq="1800" file="NUL" lane="L_0203_0" pos="0" length="79"/>                                               
+	<laneAreaDetector id="X3_D_1" freq="1800" file="NUL" lane="L_0203_1" pos="0" length="79"/>
+
+
+<!-- X4_A -->
+	<laneAreaDetector id="X4_A_0" freq="1800" file="NUL" lane="L_1404_0" pos="0" length="20"/>
+	<laneAreaDetector id="X4_A_1" freq="1800" file="NUL" lane="L_1404_1" pos="0" length="20"/>
+	<laneAreaDetector id="X4_A_2" freq="1800" file="NUL" lane="L_14041_0" pos="0" length="215"/>
+	
+<!-- X4_B -->
+	<laneAreaDetector id="X4_B_0" freq="1800" file="NUL" lane="L_0504_0" pos="0" length="40"/>                                               
+	<laneAreaDetector id="X4_B_1" freq="1800" file="NUL" lane="L_0504_1" pos="0" length="40"/>
+	<laneAreaDetector id="X4_B_2" freq="1800" file="NUL" lane="L_0504_2" pos="0" length="40"/>                                               
+	<laneAreaDetector id="X4_B_3" freq="1800" file="NUL" lane="L_05041_0" pos="0" length="181"/>
+	<laneAreaDetector id="X4_B_4" freq="1800" file="NUL" lane="L_05041_1" pos="0" length="181"/>
+	
+<!-- X4_C -->
+	<laneAreaDetector id="X4_C_0" freq="1800" file="NUL" lane="L_0704_0" pos="0" length="160"/>
+	<laneAreaDetector id="X4_C_1" freq="1800" file="NUL" lane="L_0704_1" pos="0" length="160"/>	
+	
+<!-- X4_D -->
+	<laneAreaDetector id="X4_D_0" freq="1800" file="NUL" lane="L_0304_0" pos="0" length="23"/>                                               
+	<laneAreaDetector id="X4_D_1" freq="1800" file="NUL" lane="L_0304_1" pos="0" length="23"/>
+	<laneAreaDetector id="X4_D_2" freq="1800" file="NUL" lane="L_0304_2" pos="0" length="23"/>                                               
+	<laneAreaDetector id="X4_D_3" freq="1800" file="NUL" lane="L_03041_0" pos="0" length="104"/>
+	<laneAreaDetector id="X4_D_4" freq="1800" file="NUL" lane="L_03041_1" pos="0" length="104"/>
+
+<!-- X5_A -->
+	<laneAreaDetector id="X5_A_0" freq="1800" file="NUL" lane="L_1805_0" pos="0" length="55"/>                                               
+	<laneAreaDetector id="X5_A_1" freq="1800" file="NUL" lane="L_1805_1" pos="0" length="55"/>
+	<laneAreaDetector id="X5_A_2" freq="1800" file="NUL" lane="L_1805_2" pos="0" length="55"/>                                               
+	<laneAreaDetector id="X5_A_3" freq="1800" file="NUL" lane="L_1805_3" pos="0" length="55"/>
+	<laneAreaDetector id="X5_A_4" freq="1800" file="NUL" lane="L_18051_0" pos="0" length="288"/>
+	<laneAreaDetector id="X5_A_5" freq="1800" file="NUL" lane="L_18051_1" pos="0" length="288"/>
+	<laneAreaDetector id="X5_A_6" freq="1800" file="NUL" lane="L_18051_2" pos="0" length="288"/>
+
+<!-- X5_B -->
+	<laneAreaDetector id="X5_B_0" freq="1800" file="NUL" lane="L_1905_0" pos="0" length="168"/>                                               
+	<laneAreaDetector id="X5_B_1" freq="1800" file="NUL" lane="L_1905_1" pos="0" length="168"/>
+	<laneAreaDetector id="X5_B_2" freq="1800" file="NUL" lane="L_1905_2" pos="0" length="168"/>
+
+<!-- X5_C -->
+
+<!-- X5_D -->
+	<laneAreaDetector id="X5_D_0" freq="1800" file="NUL" lane="L_04052_0" pos="0" length="21"/>                                               
+	<laneAreaDetector id="X5_D_1" freq="1800" file="NUL" lane="L_04052_1" pos="0" length="21"/>
+	<laneAreaDetector id="X5_D_2" freq="1800" file="NUL" lane="L_04051_0" pos="0" length="208"/>
+	<laneAreaDetector id="X5_D_3" freq="1800" file="NUL" lane="L_04051_1" pos="0" length="208"/>
+
+</additional>
