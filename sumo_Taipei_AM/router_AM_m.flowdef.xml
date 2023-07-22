@@ -1,0 +1,89 @@
+<flows>
+	<!-- <vType id="truck" vClass = "truck" length = "12.0" minGap = "1.0" accel = "3.5" decel = "1.0" emergencyDecel = "7.5" sigma = "0.8" lcStrategic = "5.9" lcSpeedGain = "5.2" lcPushy = "0.8"/> -->
+	<!-- <vType id ="car" vClass = "passenger" length = "5.5" minGap = "0.5" accel = "3.5" decel = "3.0" emergencyDecel = "7.5" sigma = "0.8" lcStrategic = "5.9" lcSpeedGain = "5.2" lcPushy = "0.8"/> -->
+	<!-- <vType id="motor" vClass = "moped" length = "1.6" minGap = "0.3" accel = "4" decel = "3.0" emergencyDecel = "7.5" maxSpeed = "70" latAlignment = "right" minGapLat = "0.2" sigma = "0.8" lcStrategic = "5.9" lcSpeedGain = "5.2" lcPushy = "0.8"/> -->
+	
+	<vType id="truck" vClass = "truck" length = "12.0" minGap = "1.0" accel = "3.5" decel = "1.0" emergencyDecel = "7.5"/>
+	<vType id ="car" vClass = "passenger" length = "5.5" minGap = "0.5" accel = "3.5" decel = "3.0" emergencyDecel = "7.5" sigma = "0.4"/>
+	<vType id="motor" vClass = "moped" length = "1.6" minGap = "0.2" accel = "3.6" decel = "3.0" emergencyDecel = "7.5" maxSpeed = "70" latAlignment = "right" minGapLat = "0.1" sigma = "0.25" tau = "0.95" lcPushy = "0.8"/>
+	<!-- <vType id="motor" vClass = "moped" latAlignment = "right" accel = "4.2" maxSpeed = "50" minGap = "0.3" minGapLat = "0.1" lcTurnAlignmentDistance = "100"/> -->
+	
+	
+	<flow id="IN_09_m_1" from="L_0901" type="motor" begin="0" end="1800" probability="0.0017" departLane="best"/>
+	<flow id="IN_08_m_1" from="L_0801" type="motor" begin="0" end="1800" probability="0.0700" departLane="best"/>
+	<flow id="IN_10_m_1" from="L_1002" type="motor" begin="0" end="1800" probability="0.0078" departLane="best"/>
+	<flow id="IN_14_m_1" from="L_14041" type="motor" begin="0" end="1800" probability="0.0556" departLane="best"/>
+	<flow id="IN_18_m_1" from="L_18051" type="motor" begin="0" end="1800" probability="0.0294" departLane="best"/>
+	<flow id="IN_19_m_1" from="L_1905" type="motor" begin="0" end="1800" probability="0.1289" departLane="best"/>
+	<flow id="IN_12_m_1" from="L_1206" type="motor" begin="0" end="1800" probability="0.0028" departLane="best"/>
+	<flow id="IN_11_m_1" from="L_1106" type="motor" begin="0" end="1800" probability="0.0394" departLane="best"/>
+	<flow id="IN_21_m_1" from="L_2106" type="motor" begin="0" end="1800" probability="0.0072" departLane="best"/>
+	<flow id="IN_16_m_1" from="L_1607" type="motor" begin="0" end="1800" probability="0.0578" departLane="best"/>
+	<flow id="IN_15_m_1" from="L_1507" type="motor" begin="0" end="1800" probability="0.0133" departLane="best"/>
+																																						
+																																						
+	<flow id="IN_09_m_2" from="L_0901" type="motor" begin="1800" end="3600" probability="0.0028" departLane="best"/>
+	<flow id="IN_08_m_2" from="L_0801" type="motor" begin="1800" end="3600" probability="0.1417" departLane="best"/>
+	<flow id="IN_10_m_2" from="L_1002" type="motor" begin="1800" end="3600" probability="0.0111" departLane="best"/>
+	<flow id="IN_14_m_2" from="L_14041" type="motor" begin="1800" end="3600" probability="0.1028" departLane="best"/>
+	<flow id="IN_18_m_2" from="L_18051" type="motor" begin="1800" end="3600" probability="0.0511" departLane="best"/>
+	<flow id="IN_19_m_2" from="L_1905" type="motor" begin="1800" end="3600" probability="0.2339" departLane="best"/>
+	<flow id="IN_12_m_2" from="L_1206" type="motor" begin="1800" end="3600" probability="0.0044" departLane="best"/>
+	<flow id="IN_11_m_2" from="L_1106" type="motor" begin="1800" end="3600" probability="0.0822" departLane="best"/>
+	<flow id="IN_21_m_2" from="L_2106" type="motor" begin="1800" end="3600" probability="0.0111" departLane="best"/>
+	<flow id="IN_16_m_2" from="L_1607" type="motor" begin="1800" end="3600" probability="0.1094" departLane="best"/>
+	<flow id="IN_15_m_2" from="L_1507" type="motor" begin="1800" end="3600" probability="0.0239" departLane="best"/>
+																																						
+																																						
+	<flow id="IN_09_m_3" from="L_0901" type="motor" begin="3600" end="5400" probability="0.0128" departLane="best"/>
+	<flow id="IN_08_m_3" from="L_0801" type="motor" begin="3600" end="5400" probability="0.2411" departLane="best"/>
+	<flow id="IN_10_m_3" from="L_1002" type="motor" begin="3600" end="5400" probability="0.0211" departLane="best"/>
+	<flow id="IN_14_m_3" from="L_14041" type="motor" begin="3600" end="5400" probability="0.1506" departLane="best"/>
+	<flow id="IN_18_m_3" from="L_18051" type="motor" begin="3600" end="5400" probability="0.0672" departLane="best"/>
+	<flow id="IN_19_m_3" from="L_1905" type="motor" begin="3600" end="5400" probability="0.3694" departLane="best"/>
+	<flow id="IN_12_m_3" from="L_1206" type="motor" begin="3600" end="5400" probability="0.0111" departLane="best"/>
+	<flow id="IN_11_m_3" from="L_1106" type="motor" begin="3600" end="5400" probability="0.1700" departLane="best"/>
+	<flow id="IN_21_m_3" from="L_2106" type="motor" begin="3600" end="5400" probability="0.0200" departLane="best"/>
+	<flow id="IN_16_m_3" from="L_1607" type="motor" begin="3600" end="5400" probability="0.1678" departLane="best"/>
+	<flow id="IN_15_m_3" from="L_1507" type="motor" begin="3600" end="5400" probability="0.0494" departLane="best"/>
+																																						
+																																						
+	<flow id="IN_09_m_4" from="L_0901" type="motor" begin="5400" end="7200" probability="0.0033" departLane="best"/>
+	<flow id="IN_08_m_4" from="L_0801" type="motor" begin="5400" end="7200" probability="0.2200" departLane="best"/>
+	<flow id="IN_10_m_4" from="L_1002" type="motor" begin="5400" end="7200" probability="0.0150" departLane="best"/>
+	<flow id="IN_14_m_4" from="L_14041" type="motor" begin="5400" end="7200" probability="0.1300" departLane="best"/>
+	<flow id="IN_18_m_4" from="L_18051" type="motor" begin="5400" end="7200" probability="0.0811" departLane="best"/>
+	<flow id="IN_19_m_4" from="L_1905" type="motor" begin="5400" end="7200" probability="0.2967" departLane="best"/>
+	<flow id="IN_12_m_4" from="L_1206" type="motor" begin="5400" end="7200" probability="0.0139" departLane="best"/>
+	<flow id="IN_11_m_4" from="L_1106" type="motor" begin="5400" end="7200" probability="0.1506" departLane="best"/>
+	<flow id="IN_21_m_4" from="L_2106" type="motor" begin="5400" end="7200" probability="0.0178" departLane="best"/>
+	<flow id="IN_16_m_4" from="L_1607" type="motor" begin="5400" end="7200" probability="0.1794" departLane="best"/>
+	<flow id="IN_15_m_4" from="L_1507" type="motor" begin="5400" end="7200" probability="0.0372" departLane="best"/>
+																																						
+																																						
+	<flow id="IN_09_m_5" from="L_0901" type="motor" begin="7200" end="9000" probability="0.0061" departLane="best"/>
+	<flow id="IN_08_m_5" from="L_0801" type="motor" begin="7200" end="9000" probability="0.2011" departLane="best"/>
+	<flow id="IN_10_m_5" from="L_1002" type="motor" begin="7200" end="9000" probability="0.0167" departLane="best"/>
+	<flow id="IN_14_m_5" from="L_14041" type="motor" begin="7200" end="9000" probability="0.1044" departLane="best"/>
+	<flow id="IN_18_m_5" from="L_18051" type="motor" begin="7200" end="9000" probability="0.0561" departLane="best"/>
+	<flow id="IN_19_m_5" from="L_1905" type="motor" begin="7200" end="9000" probability="0.3311" departLane="best"/>
+	<flow id="IN_12_m_5" from="L_1206" type="motor" begin="7200" end="9000" probability="0.0089" departLane="best"/>
+	<flow id="IN_11_m_5" from="L_1106" type="motor" begin="7200" end="9000" probability="0.1472" departLane="best"/>
+	<flow id="IN_21_m_5" from="L_2106" type="motor" begin="7200" end="9000" probability="0.0144" departLane="best"/>
+	<flow id="IN_16_m_5" from="L_1607" type="motor" begin="7200" end="9000" probability="0.1350" departLane="best"/>
+	<flow id="IN_15_m_5" from="L_1507" type="motor" begin="7200" end="9000" probability="0.0267" departLane="best"/>
+																																						
+																																						
+	<flow id="IN_09_m_6" from="L_0901" type="motor" begin="9000" end="10800" probability="0.0061" departLane="best"/>
+	<flow id="IN_08_m_6" from="L_0801" type="motor" begin="9000" end="10800" probability="0.1483" departLane="best"/>
+	<flow id="IN_10_m_6" from="L_1002" type="motor" begin="9000" end="10800" probability="0.0094" departLane="best"/>
+	<flow id="IN_14_m_6" from="L_14041" type="motor" begin="9000" end="10800" probability="0.0756" departLane="best"/>
+	<flow id="IN_18_m_6" from="L_18051" type="motor" begin="9000" end="10800" probability="0.0422" departLane="best"/>
+	<flow id="IN_19_m_6" from="L_1905" type="motor" begin="9000" end="10800" probability="0.2322" departLane="best"/>
+	<flow id="IN_12_m_6" from="L_1206" type="motor" begin="9000" end="10800" probability="0.0133" departLane="best"/>
+	<flow id="IN_11_m_6" from="L_1106" type="motor" begin="9000" end="10800" probability="0.1061" departLane="best"/>
+	<flow id="IN_21_m_6" from="L_2106" type="motor" begin="9000" end="10800" probability="0.0089" departLane="best"/>
+	<flow id="IN_16_m_6" from="L_1607" type="motor" begin="9000" end="10800" probability="0.0939" departLane="best"/>
+	<flow id="IN_15_m_6" from="L_1507" type="motor" begin="9000" end="10800" probability="0.0233" departLane="best"/>
+
+</flows>
