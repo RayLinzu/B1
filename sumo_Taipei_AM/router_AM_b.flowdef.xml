@@ -1,0 +1,88 @@
+<flows>
+	<!-- <vType id="truck" vClass = "truck" length = "12.0" minGap = "1.0" accel = "3.5" decel = "1.0" emergencyDecel = "7.5" sigma = "0.8" lcStrategic = "5.9" lcSpeedGain = "5.2" lcPushy = "0.8"/> -->
+	<!-- <vType id ="car" vClass = "passenger" length = "5.5" minGap = "0.5" accel = "3.5" decel = "3.0" emergencyDecel = "7.5" sigma = "0.8" lcStrategic = "5.9" lcSpeedGain = "5.2" lcPushy = "0.8"/> -->
+	<!-- <vType id="motor" vClass = "moped" length = "1.6" minGap = "0.3" accel = "4" decel = "3.0" emergencyDecel = "7.5" maxSpeed = "70" latAlignment = "right" minGapLat = "0.2" sigma = "0.8" lcStrategic = "5.9" lcSpeedGain = "5.2" lcPushy = "0.8"/> -->
+	
+	<vType id="truck" vClass = "truck" length = "12.0" minGap = "1.0" accel = "3.5" decel = "1.0" emergencyDecel = "7.5"/>
+	<vType id ="car" vClass = "passenger" length = "5.5" minGap = "0.5" accel = "3.5" decel = "3.0" emergencyDecel = "7.5" sigma = "0.4"/>
+	<vType id="motor" vClass = "moped" length = "1.6" minGap = "0.2" accel = "3.6" decel = "3.0" emergencyDecel = "7.5" maxSpeed = "70" latAlignment = "right" minGapLat = "0.1" sigma = "0.25" tau = "0.95" lcPushy = "0.8"/>
+	
+	
+	<flow id="IN_09_b_1" from="L_0901" type="truck" begin="0" end="1800" probability="0.00001" departLane="best"/>
+	<flow id="IN_08_b_1" from="L_0801" type="truck" begin="0" end="1800" probability="0.0044" departLane="best"/>
+	<!-- <flow id="IN_10_b_1" from="L_1002" type="truck" begin="0" end="1800" probability="0.00001" departLane="best"/> -->
+	<flow id="IN_14_b_1" from="L_14041" type="truck" begin="0" end="1800" probability="0.0050" departLane="best"/>
+	<flow id="IN_18_b_1" from="L_18051" type="truck" begin="0" end="1800" probability="0.0089" departLane="best"/>
+	<flow id="IN_19_b_1" from="L_1905" type="truck" begin="0" end="1800" probability="0.0211" departLane="best"/>
+	<flow id="IN_12_b_1" from="L_1206" type="truck" begin="0" end="1800" probability="0.0006" departLane="best"/>
+	<flow id="IN_11_b_1" from="L_1106" type="truck" begin="0" end="1800" probability="0.00001" departLane="best"/>
+	<flow id="IN_21_b_1" from="L_2106" type="truck" begin="0" end="1800" probability="0.00001" departLane="best"/>
+	<flow id="IN_16_b_1" from="L_1607" type="truck" begin="0" end="1800" probability="0.0050" departLane="best"/>
+	<flow id="IN_15_b_1" from="L_1507" type="truck" begin="0" end="1800" probability="0.00001" departLane="best"/>
+
+	
+	<flow id="IN_09_b_2" from="L_0901" type="truck" begin="1800" end="3600" probability="0.00001" departLane="best"/>
+	<flow id="IN_08_b_2" from="L_0801" type="truck" begin="1800" end="3600" probability="0.0100" departLane="best"/>
+	<!-- <flow id="IN_10_b_2" from="L_1002" type="truck" begin="1800" end="3600" probability="0.00001" departLane="best"/> -->
+	<flow id="IN_14_b_2" from="L_14041" type="truck" begin="1800" end="3600" probability="0.0039" departLane="best"/>
+	<flow id="IN_18_b_2" from="L_18051" type="truck" begin="1800" end="3600" probability="0.0139" departLane="best"/>
+	<flow id="IN_19_b_2" from="L_1905" type="truck" begin="1800" end="3600" probability="0.0100" departLane="best"/>
+	<flow id="IN_12_b_2" from="L_1206" type="truck" begin="1800" end="3600" probability="0.0011" departLane="best"/>
+	<flow id="IN_11_b_2" from="L_1106" type="truck" begin="1800" end="3600" probability="0.00001" departLane="best"/>
+	<flow id="IN_21_b_2" from="L_2106" type="truck" begin="1800" end="3600" probability="0.00001" departLane="best"/>
+	<flow id="IN_16_b_2" from="L_1607" type="truck" begin="1800" end="3600" probability="0.0039" departLane="best"/>
+	<flow id="IN_15_b_2" from="L_1507" type="truck" begin="1800" end="3600" probability="0.00001" departLane="best"/>
+
+	
+	<flow id="IN_09_b_3" from="L_0901" type="truck" begin="3600" end="5400" probability="0.00001" departLane="best"/>
+	<flow id="IN_08_b_3" from="L_0801" type="truck" begin="3600" end="5400" probability="0.0039" departLane="best"/>
+	<!-- <flow id="IN_10_b_3" from="L_1002" type="truck" begin="3600" end="5400" probability="0.00001" departLane="best"/> -->
+	<flow id="IN_14_b_3" from="L_14041" type="truck" begin="3600" end="5400" probability="0.0050" departLane="best"/>
+	<flow id="IN_18_b_3" from="L_18051" type="truck" begin="3600" end="5400" probability="0.0083" departLane="best"/>
+	<flow id="IN_19_b_3" from="L_1905" type="truck" begin="3600" end="5400" probability="0.0211" departLane="best"/>
+	<flow id="IN_12_b_3" from="L_1206" type="truck" begin="3600" end="5400" probability="0.0006" departLane="best"/>
+	<flow id="IN_11_b_3" from="L_1106" type="truck" begin="3600" end="5400" probability="0.00001" departLane="best"/>
+	<flow id="IN_21_b_3" from="L_2106" type="truck" begin="3600" end="5400" probability="0.00001" departLane="best"/>
+	<flow id="IN_16_b_3" from="L_1607" type="truck" begin="3600" end="5400" probability="0.0044" departLane="best"/>
+	<flow id="IN_15_b_3" from="L_1507" type="truck" begin="3600" end="5400" probability="0.0006" departLane="best"/>
+
+	
+	<flow id="IN_09_b_4" from="L_0901" type="truck" begin="5400" end="7200" probability="0.00001" departLane="best"/>
+	<flow id="IN_08_b_4" from="L_0801" type="truck" begin="5400" end="7200" probability="0.0050" departLane="best"/>
+	<!-- <flow id="IN_10_b_4" from="L_1002" type="truck" begin="5400" end="7200" probability="0.00001" departLane="best"/> -->
+	<flow id="IN_14_b_4" from="L_14041" type="truck" begin="5400" end="7200" probability="0.0022" departLane="best"/>
+	<flow id="IN_18_b_4" from="L_18051" type="truck" begin="5400" end="7200" probability="0.0128" departLane="best"/>
+	<flow id="IN_19_b_4" from="L_1905" type="truck" begin="5400" end="7200" probability="0.0144" departLane="best"/>
+	<flow id="IN_12_b_4" from="L_1206" type="truck" begin="5400" end="7200" probability="0.0006" departLane="best"/>
+	<flow id="IN_11_b_4" from="L_1106" type="truck" begin="5400" end="7200" probability="0.0011" departLane="best"/>
+	<flow id="IN_21_b_4" from="L_2106" type="truck" begin="5400" end="7200" probability="0.00001" departLane="best"/>
+	<flow id="IN_16_b_4" from="L_1607" type="truck" begin="5400" end="7200" probability="0.0039" departLane="best"/>
+	<flow id="IN_15_b_4" from="L_1507" type="truck" begin="5400" end="7200" probability="0.0006" departLane="best"/>
+	
+	
+	<flow id="IN_09_b_5" from="L_0901" type="truck" begin="7200" end="9000" probability="0.00001" departLane="best"/>
+	<flow id="IN_08_b_5" from="L_0801" type="truck" begin="7200" end="9000" probability="0.0039" departLane="best"/>
+	<!-- <flow id="IN_10_b_5" from="L_1002" type="truck" begin="7200" end="9000" probability="0.00001" departLane="best"/> -->
+	<flow id="IN_14_b_5" from="L_14041" type="truck" begin="7200" end="9000" probability="0.0028" departLane="best"/>
+	<flow id="IN_18_b_5" from="L_18051" type="truck" begin="7200" end="9000" probability="0.0089" departLane="best"/>
+	<flow id="IN_19_b_5" from="L_1905" type="truck" begin="7200" end="9000" probability="0.0161" departLane="best"/>
+	<flow id="IN_12_b_5" from="L_1206" type="truck" begin="7200" end="9000" probability="0.0006" departLane="best"/>
+	<flow id="IN_11_b_5" from="L_1106" type="truck" begin="7200" end="9000" probability="0.0006" departLane="best"/>
+	<flow id="IN_21_b_5" from="L_2106" type="truck" begin="7200" end="9000" probability="0.00001" departLane="best"/>
+	<flow id="IN_16_b_5" from="L_1607" type="truck" begin="7200" end="9000" probability="0.0061" departLane="best"/>
+	<flow id="IN_15_b_5" from="L_1507" type="truck" begin="7200" end="9000" probability="0.0011" departLane="best"/>
+	
+	
+	<flow id="IN_09_b_6" from="L_0901" type="truck" begin="9000" end="10800" probability="0.00001" departLane="best"/>
+	<flow id="IN_08_b_6" from="L_0801" type="truck" begin="9000" end="10800" probability="0.0044" departLane="best"/>
+	<!-- <flow id="IN_10_b_6" from="L_1002" type="truck" begin="9000" end="10800" probability="0.00001" departLane="best"/> -->
+	<flow id="IN_14_b_6" from="L_14041" type="truck" begin="9000" end="10800" probability="0.0017" departLane="best"/>
+	<flow id="IN_18_b_6" from="L_18051" type="truck" begin="9000" end="10800" probability="0.0122" departLane="best"/>
+	<flow id="IN_19_b_6" from="L_1905" type="truck" begin="9000" end="10800" probability="0.0144" departLane="best"/>
+	<flow id="IN_12_b_6" from="L_1206" type="truck" begin="9000" end="10800" probability="0.00001" departLane="best"/>
+	<flow id="IN_11_b_6" from="L_1106" type="truck" begin="9000" end="10800" probability="0.0006" departLane="best"/>
+	<flow id="IN_21_b_6" from="L_2106" type="truck" begin="9000" end="10800" probability="0.00001" departLane="best"/>
+	<flow id="IN_16_b_6" from="L_1607" type="truck" begin="9000" end="10800" probability="0.0028" departLane="best"/>
+	<flow id="IN_15_b_6" from="L_1507" type="truck" begin="9000" end="10800" probability="0.00001" departLane="best"/>
+
+</flows>

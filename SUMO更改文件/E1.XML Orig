@@ -1,0 +1,103 @@
+Taipei E1.xml Orig:
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-07-13 16:05:56 by Eclipse SUMO netedit Version 1.13.0
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+<!-- X2_A -->
+	
+<!-- X2_B -->
+	<inductionLoop id="X2_B_0_B" lane="L_0302_0" pos="-0.01" freq="1800" vTypes="truck" file="NUL"/>
+	<inductionLoop id="X2_B_0_C" lane="L_0302_0" pos="-0.01" freq="1800" vTypes="car" file="NUL"/>
+	<inductionLoop id="X2_B_0_M" lane="L_0302_0" pos="-0.01" freq="1800" vTypes="motor" file="NUL"/>
+	                    
+	<inductionLoop id="X2_B_1_B" lane="L_0302_1" pos="-0.01" freq="1800" vTypes="truck" file="NUL"/>
+	<inductionLoop id="X2_B_1_C" lane="L_0302_1" pos="-0.01" freq="1800" vTypes="car" file="NUL"/>
+	<inductionLoop id="X2_B_1_M" lane="L_0302_1" pos="-0.01" freq="1800" vTypes="motor" file="NUL"/>
+	
+<!-- X2_C -->
+	<inductionLoop id="X2_C_0_B" lane="L_0602_0" pos="-0.01" freq="1800" vTypes="truck" file="NUL"/>
+	<inductionLoop id="X2_C_0_C" lane="L_0602_0" pos="-0.01" freq="1800" vTypes="car" file="NUL"/>
+	<inductionLoop id="X2_C_0_M" lane="L_0602_0" pos="-0.01" freq="1800" vTypes="motor" file="NUL"/>
+	
+<!-- X2_D -->
+	<inductionLoop id="X2_D_0_B" lane="L_0102_0" pos="-0.01" freq="1800" vTypes="truck" file="NUL"/>
+	<inductionLoop id="X2_D_0_C" lane="L_0102_0" pos="-0.01" freq="1800" vTypes="car" file="NUL"/>
+	<inductionLoop id="X2_D_0_M" lane="L_0102_0" pos="-0.01" freq="1800" vTypes="motor" file="NUL"/>
+	                    
+	<inductionLoop id="X2_D_1_B" lane="L_0102_1" pos="-0.01" freq="1800" vTypes="truck" file="NUL"/>
+	<inductionLoop id="X2_D_1_C" lane="L_0102_1" pos="-0.01" freq="1800" vTypes="car" file="NUL"/>
+	<inductionLoop id="X2_D_1_M" lane="L_0102_1" pos="-0.01" freq="1800" vTypes="motor" file="NUL"/>
+	
+	
+<!-- X3_A -->
+	
+<!-- X3_B -->
+	<inductionLoop id="X3_B_0_B" lane="L_0403_0" pos="-0.01" freq="1800" vTypes="truck" file="NUL"/>
+	<inductionLoop id="X3_B_0_C" lane="L_0403_0" pos="-0.01" freq="1800" vTypes="car" file="NUL"/>
+	<inductionLoop id="X3_B_0_M" lane="L_0403_0" pos="-0.01" freq="1800" vTypes="motor" file="NUL"/>
+	                    
+	<inductionLoop id="X3_B_1_B" lane="L_0403_1" pos="-0.01" freq="1800" vTypes="truck" file="NUL"/>
+	<inductionLoop id="X3_B_1_C" lane="L_0403_1" pos="-0.01" freq="1800" vTypes="car" file="NUL"/>
+	<inductionLoop id="X3_B_1_M" lane="L_0403_1" pos="-0.01" freq="1800" vTypes="motor" file="NUL"/>
+	
+<!-- X3_C -->
+	
+<!-- X3_D -->
+	<inductionLoop id="X3_D_0_B" lane="L_0203_0" pos="-0.01" freq="1800" vTypes="truck" file="NUL"/>
+	<inductionLoop id="X3_D_0_C" lane="L_0203_0" pos="-0.01" freq="1800" vTypes="car" file="NUL"/>
+	<inductionLoop id="X3_D_0_M" lane="L_0203_0" pos="-0.01" freq="1800" vTypes="motor" file="NUL"/>
+	                    
+	<inductionLoop id="X3_D_1_B" lane="L_0203_1" pos="-0.01" freq="1800" vTypes="truck" file="NUL"/>
+	<inductionLoop id="X3_D_1_C" lane="L_0203_1" pos="-0.01" freq="1800" vTypes="car" file="NUL"/>
+	<inductionLoop id="X3_D_1_M" lane="L_0203_1" pos="-0.01" freq="1800" vTypes="motor" file="NUL"/>
+	
+	
+<!-- X4_A -->
+	<inductionLoop id="X4_A_0_B" lane="L_1404_0" pos="-0.01" freq="1800" vTypes="truck" file="NUL"/>
+	<inductionLoop id="X4_A_0_C" lane="L_1404_0" pos="-0.01" freq="1800" vTypes="car" file="NUL"/>
+	<inductionLoop id="X4_A_0_M" lane="L_1404_0" pos="-0.01" freq="1800" vTypes="motor" file="NUL"/>
+	
+	<inductionLoop id="X4_A_1_B" lane="L_1404_1" pos="-0.01" freq="1800" vTypes="truck" file="NUL"/>
+	<inductionLoop id="X4_A_1_C" lane="L_1404_1" pos="-0.01" freq="1800" vTypes="car" file="NUL"/>
+	<inductionLoop id="X4_A_1_M" lane="L_1404_1" pos="-0.01" freq="1800" vTypes="motor" file="NUL"/>
+	
+<!-- X4_B -->
+	<inductionLoop id="X4_B_0_B" lane="L_0504_0" pos="-0.01" freq="1800" vTypes="truck" file="NUL"/>
+	<inductionLoop id="X4_B_0_C" lane="L_0504_0" pos="-0.01" freq="1800" vTypes="car" file="NUL"/>
+	<inductionLoop id="X4_B_0_M" lane="L_0504_0" pos="-0.01" freq="1800" vTypes="motor" file="NUL"/>
+	                    
+	<inductionLoop id="X4_B_1_B" lane="L_0504_1" pos="-0.01" freq="1800" vTypes="truck" file="NUL"/>
+	<inductionLoop id="X4_B_1_C" lane="L_0504_1" pos="-0.01" freq="1800" vTypes="car" file="NUL"/>
+	<inductionLoop id="X4_B_1_M" lane="L_0504_1" pos="-0.01" freq="1800" vTypes="motor" file="NUL"/>
+	
+	<inductionLoop id="X4_B_2_B" lane="L_0504_2" pos="-0.01" freq="1800" vTypes="truck" file="NUL"/>
+	<inductionLoop id="X4_B_2_C" lane="L_0504_2" pos="-0.01" freq="1800" vTypes="car" file="NUL"/>
+	<inductionLoop id="X4_B_2_M" lane="L_0504_2" pos="-0.01" freq="1800" vTypes="motor" file="NUL"/>
+	
+<!-- X4_C -->
+	<inductionLoop id="X4_C_0_B" lane="L_0704_0" pos="-0.01" freq="1800" vTypes="truck" file="NUL"/>
+	<inductionLoop id="X4_C_0_C" lane="L_0704_0" pos="-0.01" freq="1800" vTypes="car" file="NUL"/>
+	<inductionLoop id="X4_C_0_M" lane="L_0704_0" pos="-0.01" freq="1800" vTypes="motor" file="NUL"/>
+	
+	<inductionLoop id="X4_C_1_B" lane="L_0704_1" pos="-0.01" freq="1800" vTypes="truck" file="NUL"/>
+	<inductionLoop id="X4_C_1_C" lane="L_0704_1" pos="-0.01" freq="1800" vTypes="car" file="NUL"/>
+	<inductionLoop id="X4_C_1_M" lane="L_0704_1" pos="-0.01" freq="1800" vTypes="motor" file="NUL"/>
+	
+<!-- X4_D -->
+	<inductionLoop id="X4_D_0_B" lane="L_0304_0" pos="-0.01" freq="1800" vTypes="truck" file="NUL"/>
+	<inductionLoop id="X4_D_0_C" lane="L_0304_0" pos="-0.01" freq="1800" vTypes="car" file="NUL"/>
+	<inductionLoop id="X4_D_0_M" lane="L_0304_0" pos="-0.01" freq="1800" vTypes="motor" file="NUL"/>
+	                    
+	<inductionLoop id="X4_D_1_B" lane="L_0304_1" pos="-0.01" freq="1800" vTypes="truck" file="NUL"/>
+	<inductionLoop id="X4_D_1_C" lane="L_0304_1" pos="-0.01" freq="1800" vTypes="car" file="NUL"/>
+	<inductionLoop id="X4_D_1_M" lane="L_0304_1" pos="-0.01" freq="1800" vTypes="motor" file="NUL"/>
+	
+	<inductionLoop id="X4_D_2_B" lane="L_0304_2" pos="-0.01" freq="1800" vTypes="truck" file="NUL"/>
+	<inductionLoop id="X4_D_2_C" lane="L_0304_2" pos="-0.01" freq="1800" vTypes="car" file="NUL"/>
+	<inductionLoop id="X4_D_2_M" lane="L_0304_2" pos="-0.01" freq="1800" vTypes="motor" file="NUL"/>
+	
+
+</additional>
